@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/playlist")
-@CrossOrigin(origins = "http://localhost:5173") // Para que React pueda conectar
+@CrossOrigin(origins = "*")
 public class PlaylistController {
 
     @Autowired
