@@ -1,0 +1,11 @@
+### Buscar y agregar canción desde Spotify
+POST http://localhost:8080/api/playlist/add-spotify/viva la vida coldplay
+
+### Ver todas las canciones (para confirmar)
+GET http://localhost:8080/api/playlist/all
+
+### Pasar a la siguiente canción
+GET http://localhost:8080/api/playlist/next
+
+### Ver qué está sonando ahora
+GET http://localhost:8080/api/playlist/current
